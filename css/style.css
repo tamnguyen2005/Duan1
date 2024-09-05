@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.nav
+{
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    align-items: baseline;
+}
+.con a{
+    text-decoration: none;
+    color: red;
+}
+.dangnhap{
+    background-color: black;
+    padding: 5px;
+    border-radius: 2rem;
+    width: 7rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+.dangnhap span
+{
+    color: white;
+
+}
+.nav .con
+{
+    transition: 0.1s ease;
+}
+.nav .con:hover{
+    border-bottom: 0.2rem solid red;
+}
